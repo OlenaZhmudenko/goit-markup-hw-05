@@ -523,10 +523,14 @@ img {
         
 }
 .footer-subscribe-menu {
-        display: flex;
-        margin-left: 80px;
-        display: inline-block;
+        
+        margin-left: auto;
+       
 
+}
+.footer-subscribe-input{
+        display: flex;
+        gap: 24px;
 }
 .footer-subscribe {
         font-weight: 500;
@@ -536,16 +540,7 @@ img {
         color: #fff;
         margin-bottom: 16px;
 }
-.footer-form-wrap {
-        display: flex;
-       
-        gap: 24px;
-}
-.footer-btn-wrap {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
+
 /*----------------------------FOOTER---------------------*/
 
 .background {
