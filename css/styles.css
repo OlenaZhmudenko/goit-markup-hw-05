@@ -511,7 +511,7 @@ img {
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 16px;
+       
         border-radius: 4px;
         padding: 8px 24px;
         min-width: 165px;
@@ -524,6 +524,14 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        transition: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-btn:hover,
+.footer-btn:focus {
+        color: #fff;
+        background-color: #404BBF
 }
 .footer-button-icon {
         margin-left: 16px;
@@ -692,6 +700,11 @@ img {
         transition: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button-submit:hover,
+.modal-button-submit:focus {
+        color: #fff;
+        background-color: #404BBF
 }
 .modal-group-text {
         margin-bottom: 16px;
